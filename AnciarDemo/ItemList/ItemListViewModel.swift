@@ -8,10 +8,13 @@
 import Foundation
 
 protocol ItemListViewModelProtocol: AnyObject{
-    
+    func setup()
 }
 
 
 class ItemListViewModel: ItemListViewModelProtocol{
-    
+ 
+    func setup(){
+        
+    }
 }
